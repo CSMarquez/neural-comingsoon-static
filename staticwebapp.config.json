@@ -1,0 +1,31 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/assets/*",
+      "/_framework/*",
+      "/*.css",
+      "/*.js",
+      "/*.json",
+      "/*.svg",
+      "/*.png",
+      "/*.jpg",
+      "/*.ico",
+      "/*.wasm",
+      "/*.dll",
+      "/*.dat",
+      "/*.blat"
+    ]
+  },
+  "mimeTypes": {
+    ".wasm": "application/wasm",
+    ".dll": "application/octet-stream",
+    ".dat": "application/octet-stream",
+    ".blat": "application/octet-stream",
+    ".json": "application/json"
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  }
+}
