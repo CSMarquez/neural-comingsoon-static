@@ -60,3 +60,4 @@ staticwebapp.config.json
 ```
 
 `staticwebapp.config.json` includes navigation fallback to `index.html`, which is required for client-side routing.
+# neural-comingsoon-static
